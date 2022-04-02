@@ -1,0 +1,27 @@
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    h1{
+        margin-right: 1rem;
+        color: #E33D33;
+        font-size: 3rem;
+        text-align: center;
+
+        span{
+            color: #000;
+        }
+    }
+}
+
+
+.podemonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1120px;
+    margin: 0 auto;
+}
